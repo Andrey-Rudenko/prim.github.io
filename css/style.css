@@ -100,6 +100,24 @@ header {
   margin-right: 100px;
 }
 
+@media screen and (max-width: 1200px) {
+  .headerInf {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .logo {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .headerInf_items {
+    display: none;
+  }
+}
+
 .navbar {
   background-color: #232323;
   height: 60px;
@@ -195,6 +213,24 @@ header {
   background: #ac5025;
   -webkit-box-shadow: 0 5px #ac5025 inset;
           box-shadow: 0 5px #ac5025 inset;
+}
+
+@media screen and (max-width: 1200px) {
+  .main_button {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .navbar_zone {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-right: 5%;
+  }
+  .navbar_menu {
+    display: none;
+  }
 }
 
 body {
