@@ -118,6 +118,12 @@ header {
   }
 }
 
+@media screen and (max-width: 766px) {
+  .headerInf {
+    margin: 0px;
+  }
+}
+
 .navbar {
   background-color: #232323;
   height: 60px;
