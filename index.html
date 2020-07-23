@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/nav.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
@@ -46,19 +47,41 @@
         </div>
     </header>
     <div class="navbar">
-        <div class="navbar_zone">
-            <div class="navbar_menu">
-                <ul>
-                <li class="active"><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">WORK</a></li>
-                <li><a href="#">BLOG</a></li>
-                </ul>
-            </div>
-            <div class="main_button">
-                <a href="#">WORK WITH US!</a>
-            </div>
-        </div>
+        <div class="nav-wrapper">
+            <nav class="nav">
+              <button class="toggle-nav" type="button">
+                <div class="burger -squeeze -offset" type="button">
+                  <span class="burger-lines"></span>
+                </div>
+              </button>
+              <a class="logo-link" href="#">
+                <img class="logo" id="logo" src="assets/images/logo.svg" alt="Logo">
+              </a>
+              <ul class="nav-list" role="navigation">
+                <div class="list -left">
+                  <li class="item">
+                    <a class="link" href="https://github.com/obscuredetour/simply-nav">GitHub</a>
+                  </li>
+                  <li class="item">
+                    <a class="link" href="#features">Features</a>
+                  </li>
+                  <li class="item">
+                    <a class="link" href="#custom">Customizable</a>
+                  </li>
+                  <li class="item">
+                    <a class="link" href="#how-to-use">How to use</a>
+                  </li>
+                  <li class="item">
+                    <a class="link" href="#example">Example</a>
+                  </li>
+                </div>
+                <div class="list -right">
+                  <div class="overlay"></div>
+                </div>
+              </ul>
+            </nav>
+          </div>
     </div>
+    <script src="js/simply-nav.js"></script>
 </body>
 </html>
