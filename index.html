@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main-header-menu.css">
 </head>
 <body>
     <header>
@@ -58,8 +60,23 @@
             <div class="main_button">
                 <a href="#">WORK WITH US!</a>
             </div>
+            <nav class="main-header-menu dropdown-menu">
+                <ul>
+                  <li><a href="#" class="dropdown-menu-item">Home</a></li>
+                  <li><a href="#about" class="dropdown-menu-item">About</a></li>
+                  <li><a href="#services" class="dropdown-menu-item">Services</a></li>
+                  <li><a href="#team" class="dropdown-menu-item">Team</a></li>
+                  <li><a href="#contact" class="dropdown-menu-item">Contact</a></li>
+                </ul>
+              </nav>
+              <button class="main-header-dropdown-button" onclick="toggleDropdownMenu(1)">
+                <div class="stripes"></div>
+                <div class="stripes"></div>
+                <div class="stripes"></div>
+                <div class="stripes"></div>
+              </button>
         </div>
     </div>
-    
+    <script src="js/main-header-menu.js"></script>
 </body>
 </html>

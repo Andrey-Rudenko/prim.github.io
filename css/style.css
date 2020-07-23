@@ -70,7 +70,7 @@ header {
 }
 
 .circleButton img {
-  width: 25px;
+  width: 45px;
 }
 
 .headerInf_str {
@@ -215,13 +215,19 @@ header {
           box-shadow: 0 5px #ac5025 inset;
 }
 
+@media screen and (min-width: 1200px) {
+  .main-header-dropdown-button {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .main_button {
     margin-left: 50px;
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 766px) {
   .navbar_zone {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
